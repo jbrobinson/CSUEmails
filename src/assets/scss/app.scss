@@ -1,2 +1,44 @@
 @import 'settings';
 @import 'foundation';
+
+/* reset default colors */
+$secondary-color: #002c77;
+$dark-gray: #333333;
+$h1-font-size: 18px;
+$global-width: 600px;
+/* App Specific Styles */
+
+.footer_unsubscribe{
+  background-color: $light-gray;
+}
+small{
+  color: $global-font-color;
+}
+a {
+  color: $secondary-color;
+  font-weight: 600;
+}
+a:hover{
+  color: lighten($secondary-color, 20%);
+}
+
+.small{
+  font-size: .85rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: $h1-font-size;
+  color: $secondary-color;
+  font-weight: 900;
+}
+.show-for-sr{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}

@@ -15,8 +15,25 @@
       <tr>
         <td class="center" align="center" valign="top">
           <center>
+
             {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}}
+            <container>
+          <!--
+              {{> header.read-online }}
+              {{> header.branding }}
+            <!-- // header -->
+
             {{> body}}
+
+            <!-- footer -->
+<hr />
+
+              {{> footer.imprint }}
+              {{> footer.unsubscribe }}
+
+
+            <!-- // footer -->
+          </container>
           </center>
         </td>
       </tr>
@@ -25,4 +42,3 @@
    <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
   </body>
 </html>
-
