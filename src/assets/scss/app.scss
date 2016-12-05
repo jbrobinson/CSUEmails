@@ -7,7 +7,9 @@ $dark-gray: #333333;
 $h1-font-size: 18px;
 $global-width: 600px;
 /* App Specific Styles */
-
+html, body, .body {
+  background-color: $light-gray;
+}
 .footer_unsubscribe{
   background-color: $light-gray;
 }
@@ -29,8 +31,15 @@ a:hover{
 h1 {
   text-transform: uppercase;
   font-size: $h1-font-size;
+  font-weight: 900;
+}
+h1, h2, h3 {
   color: $secondary-color;
   font-weight: 900;
+}
+h2 {
+  font-size: 16px;
+
 }
 .show-for-sr{
   position: absolute;
