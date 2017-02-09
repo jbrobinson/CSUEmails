@@ -1,0 +1,124 @@
+<style type="text/css">
+    body,
+    html,
+    .body {
+        background: #dddddd !important;
+    }
+    .header .columns {
+      padding-bottom: 0;
+    }
+
+    .header p {
+      color: #fff;
+    }
+
+    .header .wrapper-inner {
+      padding: 5px 20px;
+    }
+
+    .header .container {
+      background: #002c77;
+      padding: 5px 20px;
+    }
+
+    table.button.facebook table td {
+      background: #3B5998 !important;
+      border-color: #3B5998;
+    }
+
+    table.button.twitter table td {
+      background: #1daced !important;
+      border-color: #1daced;
+    }
+
+    table.button.google table td {
+      background: #DB4A39 !important;
+      border-color: #DB4A39;
+    }
+
+    table.container{
+      max-width:560px;
+      width: 100%;
+    }
+
+    .wrapper.secondary {
+      background: #f3f3f3;
+    }
+
+    .sidebar .menu .menu-item {
+      border-top: 1px solid #777777;
+      text-transform: uppercase;
+      font-size: .9rem;
+    }
+    .sidebar .menu .menu-item:first-child {
+      border-top: none;
+    }
+</style>
+<wrapper class="header">
+  <row class="collapse">
+  <center>
+    <img src="http://www.columbiasouthern.edu/CSU2014/media/Email/Admissions/generic_email_Header.png" alt="CSU Building" />
+  </center>
+  </row>
+</wrapper>
+<wrapper style="padding-bottom: 0;">
+  <hr style="margin: 5px auto 20px;"/>
+  <!--header navigation - Use if you want to. -->
+    <row class="collapsed">
+      <columns medium="4" small="12" valign="middle">
+        <p class="text-center"><a href="#" target="_blank">{Nav 1}</a></p>
+      </columns>
+      <columns medium="4" small="12" valign="middle">
+        <p class="text-center"><a href="#" target="_blank">{Nav 2} </a></p>
+      </columns>
+      <columns medium="4" small="12" valign="middle">
+        <p class="text-center"><a href="#">{Nav 3}</a></p>
+      </columns>
+    </row>
+  <!--</container>-->
+  <hr style="margin: 0;" />
+</wrapper>
+<container>
+  <spacer size="16"></spacer>
+  <row>
+  
+   <!-- Column 1 starts here -->
+    <columns large="8" small="12">
+      <h1>Hello (%Prospectfirstname%),</h1>
+      <p class="lead">{Lead Content}</p>
+        <spacer size="16"></spacer>
+      <p>{Some content}<a href="https://auth.columbiasouthern.edu/login?service=https://mycsu.columbiasouthern.edu/Account/LogOn" target="_blank">{a link}</a>.</p>
+        <spacer size="16"></spacer>
+      <p>{some content}</p>
+    </columns>
+    <!-- Column 1 Ends -->
+    
+    <!-- Column 2 starts here -->
+    <columns large="4" small="12" class="sidebar">
+      <callout class="secondary">
+        <menu class="vertical">
+          <item href="#" target="_blank">{Button 1}</item>
+          <item href="#" target="_blank">{Button 2}</item>
+          <item href="#" target="_blank">{Button 3}</item>
+        </menu>
+      </callout>
+    </columns>
+    <!-- Column 2 ends -->
+    
+  </row>
+  <row>
+  <!-- Single Column Starts -->
+  <columns>
+    <callout>
+      {Callout Content - This gets it's own complete row and a border. This is only to be used in cases of extreme discretion.}
+    </callout>
+      <spacer size="16"></spacer>
+    <p>{wrap it up content}</p>
+      <spacer size="16"></spacer>
+    <p>{Sincerely,}</p>
+      <spacer size="16"></spacer>
+    <p>{signature}</p>
+  </columns>
+  <!-- Single Column Ends -->
+  </row>
+</container>
