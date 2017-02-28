@@ -1,0 +1,28 @@
+<style type="text/css">
+  body,
+  html,
+  .body {
+    background: #dddddd !important;
+  }
+</style>
+<wrapper>
+  <center>
+    <a href="https://auth.columbiasouthern.edu/login?utm_source=Omega&utm_medium=Email&utm_content=20170220-Time-to-Enroll&utm_campaign=General" target="_blank"><img src="http://www.columbiasouthern.edu/CSU2014/media/Email/OMEGA/enroll.jpg" alt="Time to Enroll!"></a>
+  </center>
+</wrapper>
+<container>
+  <row>
+    <columns>
+
+      <spacer size="16"></spacer>
+      <p>Greetings {%FirstName%},</p>
+      	<spacer size="16"></spacer>
+       <p>
+   You are all set to get started in your first CSU classes! All you have to is log into your <a href="https://auth.columbiasouthern.edu/login?utm_source=Omega&utm_medium=Email&utm_content=20170220-Time-to-Enroll&utm_campaign=General" target="_blank">MyCSU Application Portal</a> and select <strong>Enroll Now</strong>, or give us call at <a href="tel:+18009778449">800-977-8449</a> ext. 6521 and we can submit your enrollment over the phone.
+</p>
+   <p>The last day to enroll is {%TermStartDate%}. If you have any questions, we are happy to help. Welcome to CSU! </p>
+		<spacer size="16"></spacer>
+		<p><strong>Register for {%UpcomingTerm%} before {%TermStartDate%}</strong></p>
+    </columns>
+  </row>
+</container>

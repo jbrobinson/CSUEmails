@@ -66,13 +66,13 @@
   <!--header navigation - Use if you want to. -->
     <row class="collapsed">
       <columns medium="4" small="12" valign="middle">
-        <p class="text-center"><a href="javascript: var e= window.open('http://im.columbiasouthern.edu/SightMaxAgentInterface/PreChatSurvey.aspx?aq7=18&aq6=17&aq5=15&aq4=13&aq3=12&aq2=10&aq1=9&accountid=3&siteid=4&queueid=8&jquery=false&json=false&skipsurvey=false','chatWindow','width=490,height=404,resizable=0,scrollbars=no,menubar=no,status=no');" target="_blank">CHAT</a></p>
+        <p class="text-center"><a href="#" target="_blank">{Nav 1}</a></p>
       </columns>
       <columns medium="4" small="12" valign="middle">
-        <p class="text-center"><a href="https://auth.columbiasouthern.edu/login?service=https://mycsu.columbiasouthern.edu/Account/LogOn" target="_blank">myCSU STUDENT PORTAL</a></p>
+        <p class="text-center"><a href="#" target="_blank">{Nav 2} </a></p>
       </columns>
       <columns medium="4" small="12" valign="middle">
-        <p class="text-center"><a href="https://mycsu.columbiasouthern.edu/student/ClassEnrollment" target="_blank">ENROLL TODAY!</a></p>
+        <p class="text-center"><a href="#">{Nav 3}</a></p>
       </columns>
     </row>
   <!--</container>-->
@@ -85,16 +85,11 @@
    <!-- Column 1 starts here -->
     <columns large="8" small="12">
       <h1>Hello (%Prospectfirstname%),</h1>
-      <p class="lead">Our records show that your student loan grace period is coming to an end this month.</p>
+      <p class="lead">{Lead Content}</p>
         <spacer size="16"></spacer>
-      <p>If you haven’t already, we advise you to:</p>
-       <ul>
-       	<li>Contact your servicer. Our records show your servicer’s name and contact information as: 
-			(%Servicertable%)</li>
-		<li>Explore your repayment options and discuss with your servicer what plan would be best for you. Remember what you learned in exit counseling regarding income-driven repayment plans and loan consolidation.</li>
-       </ul>
+      <p>{Some content}<a href="https://auth.columbiasouthern.edu/login?service=https://mycsu.columbiasouthern.edu/Account/LogOn" target="_blank">{a link}</a>.</p>
         <spacer size="16"></spacer>
-      <p>We hope you’re well and that you are prepared to enter student loan repayment. Please visit <a href="http://www.studentaid.ed.gov/" target="_blank">www.studentaid.ed.gov</a> or contact our office directly if you have questions.</p>
+      <p>{some content}</p>
     </columns>
     <!-- Column 1 Ends -->
     
@@ -102,9 +97,9 @@
     <columns large="4" small="12" class="sidebar">
       <callout class="secondary">
         <menu class="vertical">
-          <item href="https://studentaid.ed.gov/sa/repay-loans" target="_blank">REPAYMENT RESOURCES</item>
-          <item href="https://www.nslds.ed.gov/nslds/nslds_SA/" target="_blank">REVIEW YOUR LOANS</item>
-          <item href="https://fafsa.ed.gov/" target="_blank">SUBMIT YOUR FAFSA</item>
+          <item href="#" target="_blank">{Button 1}</item>
+          <item href="#" target="_blank">{Button 2}</item>
+          <item href="#" target="_blank">{Button 3}</item>
         </menu>
       </callout>
     </columns>
@@ -114,12 +109,15 @@
   <row>
   <!-- Single Column Starts -->
   <columns>
+    <!--<callout>
+      {Callout Content - This gets it's own complete row and a border. This is only to be used in cases of extreme discretion.}
+    </callout>-->
       <spacer size="16"></spacer>
-    <p>Exciting news! In addition to phone and email, CSU is now communicating via text messaging. To subscribe, please log into the myCSU Portal and modify your notification preferences or simply let me know. I would be happy to update your student record.</p>
+    <p>{wrap it up content}</p>
       <spacer size="16"></spacer>
-    <p>Sincerely,</p>
+    <p>{Sincerely,}</p>
       <spacer size="16"></spacer>
-    <p>Debra Newton</p>
+    <p>{signature}</p>
   </columns>
   <!-- Single Column Ends -->
   </row>
